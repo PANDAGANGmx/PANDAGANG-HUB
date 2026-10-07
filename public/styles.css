@@ -27,3 +27,6 @@
 .books h2{font-size:clamp(24px,2.65vw,36px);max-width:100%;overflow-wrap:normal;word-break:normal;line-height:.92}
 .book-spine{right:18px;width:54px}
 @media(max-width:760px){.books{padding-right:78px}.books h2{font-size:30px;max-width:100%;overflow-wrap:normal;word-break:normal}.book-spine{right:14px;width:48px}}
+
+/* remove decorative PG monogram */
+.hero-mark{display:none!important}
